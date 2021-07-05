@@ -1,0 +1,295 @@
+*{margin: 0;padding: 0}
+body{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*font-family: 'Lato', sans-serif;*/
+h1,h2,h3,h4,h5,h6,a,botton,input,p,li{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;display: block;
+}
+/*******header section CSS code********/
+.header{
+    padding: 0px 0; 
+     margin: 0 auto;
+
+}
+.main-header{
+    display: flex;
+}
+.header-left{
+    background: #015761;
+    flex-basis: 50%;
+    height: 730px;
+}
+.sub-header{
+    padding: 30px;
+}
+.sub-header h3{
+    color: #F7DC4F;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.sub-header ul li{
+    display: inline-block;
+    list-style: none;
+}
+.sub-header ul li a{
+    color: #ffffff;
+    font-size: 13px;
+    margin-right: 30px;
+    transition: .5s;
+}
+.sub-header ul li a:hover{
+    color: #F7DC4F;
+    transition: .5s;
+}
+.font-page{
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page{
+     text-align: left;
+}
+.page p{
+    font-size: 35px;
+    color: #F7DC4F;
+    margin-bottom: 10px;
+}
+.page p:last-child{
+    font-size: 13px;
+    font-family: arial;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.page h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    line-height:80px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.header-right{
+    flex-basis: 50%;
+    background-image: url(img/img-01.PNG);
+    height:710px;
+}
+.icon{
+    background: #F7DC4F;
+    margin-top: 306px;
+    margin-left: 720px;
+}
+.icon ul{
+    padding: 4px 0;
+}
+.icon ul li{
+    list-style: none;
+    margin: 18px 10px;
+}
+.icon ul li a {
+    color: #015761;
+    font-size: 12px;
+    transition: .2s;
+}
+.icon ul li a:hover{
+    color:#fff;
+    transition: .2s;
+}
+/*******banare section CSS code********/
+.main-banare{
+    background: #eee;
+}
+.banare{
+    margin: 0 auto;
+    padding: 70px 0;
+    width: 600px;
+    text-align: center;
+}
+.banare h1{
+    color:#015761;
+    font-size: 40px;
+    font-weight: 800;
+}
+.banare p{
+    margin-top: 30px;
+    font-size: 13px;
+    line-height: 22px;
+    word-spacing: 1.5px;
+    color: #3c3838;
+}
+.banare a{
+    margin-top: 30px;
+    color:#015761;
+    font-size: 10px;
+}
+.banare a botton{
+    background: #F7DC4F;
+    padding: 10px 15px;
+    transition: all .5s ease;
+
+}
+.banare a botton:hover{
+    background: #015761;
+    color:#ffffff;
+    transition: all .5s ease;
+ 
+}
+/*******background section CSS code********/
+.background{
+    
+}
+.text-top,.main-photo{
+    text-align: center;
+    color:#015761;
+    padding: 70px 0;
+}
+.text-top h1,.photo-text h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.back-bottom{
+    background:url(img/img-2.PNG);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-bottom a{
+    text-decoration: underline;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.back-bottom  a:hover{
+    color: #015761;
+    transition: .2s;
+}
+.back-bottom a i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color:#fff; 
+    border: 2px solid #fff;
+    border-radius: 100%;
+    transition: .2s;
+    margin-right: 8px;
+}
+
+.back-bottom  a i:hover{
+    background: #F7DC4F;
+    color: #fff;
+    border: 2px solid #F7DC4F;
+    transition: .2s;
+}
+.photo-item{
+    margin-top: 70px;
+}
+.photo-top img{
+   margin: 15px;
+   border-radius: 8px;
+   transition: .5s;
+}
+.photo-top img:hover{
+    box-shadow: 10px 10px 10px 10px #3c3838;
+    border-radius: 8px;
+    transition: .5s;
+}
+/*******footer section CSS code********/
+
+.main-footer{
+    padding-top: 40px;
+}
+.footer-1{
+    display: flex;
+}
+.left-footer{
+    flex-basis: 50%;
+}
+.left-footer img{
+    width: 770px;
+}
+.right-footer{
+    flex-basis: 50%;
+    text-align: left;
+    background: #015761;
+    padding: 100px 150px;
+    height: 445px;
+}
+.item-1 h1{
+    color:#F7DC4F;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.item-1 p{
+    color:#fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.item-2{
+    color: #fff;
+    margin-top: 15px;
+    line-height: 20px;
+}
+.item-2 h5{   
+    font-size: 15px;
+    font-weight: 100;
+}
+.item-2 p{   
+    font-size: 12px;
+    font-weight: 100;
+}
+.item-3 ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+.item-3 ul li a{
+    color: #fff;
+    font-size: 12px;
+    transition: .5s;
+
+}
+.item-3 ul li a:hover{
+    color:#F7DC4F;
+    transition: .5s;
+}
+.footer-2{
+    text-align: center;
+    font-size: 10px;
+    padding: 25px;
+    color: #015761;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+
+}
+.footer-2 p a{
+    color: #015761;
+    text-decoration:underline;
+    text-decoration-color: black;
+    display: inline;
+    transition: .5s;
+
+}
+.footer-2 p a:hover{
+    color: #796600;
+    transition: .5s;
+   text-decoration-color: #796600;
+}
+.footer-3{
+    width: 100%;
+    height: 50px;
+    background: #eee;
+}
